@@ -1,0 +1,50 @@
+.container a{
+    color: rgba(74, 111, 80, 1);
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.create-account{
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.forgot-password{
+     margin-bottom: 10px;
+}
+
+.container input{
+    padding: 15px;
+    margin: 10px;
+    width: 400px;
+    border-style: hidden;
+    margin-right: 10px;
+    background-color: rgb(247, 243, 228);
+    outline: none;
+    border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(147, 178, 152, 1);
+ }
+.container h1{
+    background: linear-gradient(to right, rgb(76, 122, 84),rgb(207, 103, 89), rgb(216, 140, 0), rgb(252, 242, 109), rgba(223, 177, 90, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+}
+
+.container button{
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 5px;
+    color: rgb(40, 71, 46);
+    background-color: rgb(138, 172, 142);
+}
+.container button:hover{
+    background-color: rgb(177, 204, 180);
+    transition: 0.5s;
+}
